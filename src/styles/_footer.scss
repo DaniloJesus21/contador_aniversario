@@ -1,0 +1,18 @@
+@use 'variables' as *;
+
+.footer {
+  color: $textColor;
+  background-color: $black;
+
+  &__container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-align: center;
+  }
+}
+
+.text--small {
+  font-size: 12px;
+}
