@@ -4,10 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contador de Aniversário</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
-  <h1>Olá</h1>
+  <header class="hero">
+    <div class="container">
+      <!-- <img class="hero__logo" src="./images/wallpaper_sushi_da_praca.jpg" alt="Sushi da Praça"> -->
+      <p class="hero__text">
+        O aniversário de Danilo Jesús começa em <span id="contador"></span>
+      </p>
+      <div class="infos-bar">
+        <ul class="infos-bar__infos">
+          <li class="infos-bar__infos__item">
+            <b>Localização</b>
+            <p>Niterói - Rio de Janeiro</p>
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Preço</b>
+            <p>Rodízio por R$ 99,90</p>
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Quando</b>
+            <p>21/11/2025 às 18h</p>
+          </li>
+        </ul>
+        <a href="#" class="button button--primary">
+          Confirme sua presença
+        </a>
+      </div>
+    </div>
+  </header>
 
   <script src="scripts/main.js"></script>
 </body>
