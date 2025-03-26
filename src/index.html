@@ -10,13 +10,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/main.scss">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <header class="hero">
     <div class="container">
-      <!-- <img class="hero__logo" src="./images/wallpaper_sushi_da_praca.jpg" alt="Sushi da Praça"> -->
       <p class="hero__text">
-        O aniversário de Danilo Jesús começa em <span id="contador"></span>
+        O aniversário de Danilo Jesús começa em:<br> <span id="contador"></span>
       </p>
       <div class="infos-bar">
         <ul class="infos-bar__infos">
@@ -40,6 +41,61 @@
     </div>
   </header>
 
+  <section class="event event--arte" >
+    <div class="container" data-aos="fade-right">
+      <div class="event__details">
+        <h2 class="event__details__title">Elevando o Sushi à Arte</h2>
+        <p class="event__details__description">
+          Cada ingrediente escolhido, cada prato servido, é o resultado de uma jornada incessante de paixão e excelência na culinária Japonesa
+        </p>
+      </div>
+      <img class="event__image" src="./images/sushi_arte.avif" alt="">
+    </div>
+  </section>
+
+  <section class="event event--momentos event--image-left" >
+    <div class="container" data-aos="fade-left">
+      <div class="event__details">
+        <h2 class="event__details__title">O Palco Para Seus Momentos Especiais</h2>
+        <p class="event__details__description">
+          Celebrações ganham um toque especial com nossas criações exclusivas. 
+        </p>
+        <p class="event__details__description">
+          Descubra uma gastronomia que emociona e transforma momentos em memórias duradouras
+        </p>
+      </div>
+      <img class="event__image" src="./images/sushi_momentos.avif" alt="">
+    </div>
+  </section>
+
+  <section class="event event--rodizio" >
+    <div class="container" data-aos="fade-right">
+      <div class="event__details">
+        <h2 class="event__details__title">Conheça o Rodízio mais completo do Rio de Janeiro</h2>
+        <p class="event__details__description">
+          No cardápio conta com uma grande variedade de pratos tradicionais e criações exclusivas do nosso Chef.
+        </p>
+        <p class="event__details__description">
+          Isso sem falar da Carta de Drinks que é um show a parte.
+        </p>
+      </div>
+      <img class="event__image" src="./images/sushi_rodizio.avif" alt="">
+    </div>
+  </section>
+
+  <section class="event event--cardapio event--image-left">
+    <div class="container" data-aos="fade-left">
+      <div class="event__details">
+        <h2 class="event__details__title">Nosso cardápio está de cara nova</h2>
+        <p class="event__details__description">
+          O cardápio agora é digital, em tablets, tornando sua experiência ainda mais confortável e ágil.
+        </p>
+      </div>
+      <img class="event__image" src="./images/sushi_cardapio.avif" alt="">
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="scripts/main.js"></script>
 </body>
 </html>
