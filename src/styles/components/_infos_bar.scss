@@ -5,25 +5,11 @@
   background-color: $textColor;
   display: flex;
   justify-content: space-between;
-
-  @media (max-width: 1024px){
-    &__infos {
-      gap: 16px;
-    }
-  }
-
+  
   @media (max-width: 640px){
     display: block;
-
-    &__infos {
-      display: block;
-
-      &__item {
-        margin-bottom: 24px;
-      }
-    }
   }
-
+  
   &__infos {
     display: flex;
     gap: 40px;
@@ -39,4 +25,19 @@
       }
     }
   }
+  
+  @media (max-width: 1024px){
+    &__infos {
+      gap: 16px;
+
+      @media (max-width: 640px){
+        display: block;
+    
+        &__item {
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+  
 }

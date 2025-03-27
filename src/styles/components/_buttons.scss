@@ -22,6 +22,10 @@
   &--primary {
     color: $textColor;
     background-color: $darkred;
+
+    &:hover {
+      background-color: $darkredSecondary;
+    }
   }
 
 
