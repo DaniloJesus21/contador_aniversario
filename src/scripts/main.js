@@ -23,7 +23,7 @@ const contaAsHoras = setInterval(() => {
 
   if (distanciaAteOEvento < 0) {
     clearInterval(contaAsHoras)
-    document.getElementById('contador').innerHTML = `Evento expirado`
+    document.getElementById('evento').innerHTML = `Evento expirado`
   } 
 
 }, 1000);
